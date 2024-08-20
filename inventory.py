@@ -4,7 +4,7 @@ import os
 import sqlite3
 import pandas as pd
 
-conn = sqlite3.connect('grocer_test.db')
+conn = sqlite3.connect('database.db')
 cur = conn.cursor()
 
 # Function to create tables 
